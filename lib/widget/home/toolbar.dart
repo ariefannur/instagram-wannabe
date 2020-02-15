@@ -2,15 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_wannabe/commons/constant.dart';
 
-class Toolbar extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() {
-    return ToolbarState();
-  }
-
-}
-
-class ToolbarState extends State<Toolbar> {
+class Toolbar extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
     return Container(
